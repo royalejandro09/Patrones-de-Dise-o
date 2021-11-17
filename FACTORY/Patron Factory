@@ -1,0 +1,11 @@
+PROGRAMACION ORIENTADA A OBJETOS - JAVA
+
+FACTORY
+
+El Patron de diseño Factory tiene dos variaciones
+
+-Factroy Method: Este patron define una interfaz para crear un objeto, pero permite que las subclases decidan que clase Instanciar.
+-Abstract Factroy: Este patron proporciona ina interfaz para crear familias de objetos dependientes o relacionados sin especificar sus clases concretas.
+
+Su objetivo es crear objetos, por lo que es un patron de creacion. Basicamente la logica de creacion esta encapsulada dentro
+de la Fabrica (FactoryMethod) y se proporciona un metodo que retorna un objeto (Metodo Fcatory), o la creacion del objeto se delega a una subclase (metodo Abstract Factory predeterminado).

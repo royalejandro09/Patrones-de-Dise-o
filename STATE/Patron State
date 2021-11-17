@@ -1,0 +1,7 @@
+PROGRAMACION ORIENTADA A OBJETOS - JAVA
+
+STATE
+
+El Patron State propone crear un Objeto por cada uno de los estados posibles del objeto que lo invoca.
+Se implementa una clase para cada estado diferente del objeto y cada clase IMPLEMENTARA los metodos cuyo comportamiento varia segun su estado.
+Asi siempre se tendra una referencia a un estado concreto y se comunicara con este para resolver sus responsabilidades.

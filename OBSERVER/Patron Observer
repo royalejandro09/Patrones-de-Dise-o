@@ -1,0 +1,13 @@
+PROGRAMACION ORIENTADA A OBJETOS - JAVA
+
+OBSERVER
+
+Este patron establece una relacion de uno a muchos.
+Este propone una solucion creando una interfaz que, cuando un objeto cambie de estado, se notifique y actualicen todos los objetos que dependen de el.
+
+Para implementar este patron, debemos tener dos interfaces.
+Se dispone de una interfaza SujetoObservable y una para los Observadores.La clase concreta que sera observada implementa la interface Observable y los
+observadores concreto implementan a observador.
+
+Estas dos interfaces tienen un metodo que deben declarar las clases concretas, y por medio de estos metodos es que se actualizaran los observadores
+con cada cambio de estado en el SujetoObservable.  

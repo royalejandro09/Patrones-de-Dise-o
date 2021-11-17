@@ -1,0 +1,10 @@
+PROGRAMACION ORIENTADA A OBJETOS - JAVA
+
+STRATEGY
+
+Este patron propone una solucion simple basada en un objeto que cambia y cuyo comportamiento es el que se adápta a la circunstancia.
+
+Se dispone de una Interface Estrategia(Strategy), la cual establece las firmas de los metodos que queremos que cambien y las diferentes clases que implementan esta interface, Estrategias concretas(ConcreteStrategy), que son las que tienen los diferentes algoritmos para realizar la tarea.
+
+Podremos tener tambien algun caso donde queremos que la estrategia tambien tenga algun atributo que sea comun a cada estrategia concreta.
+En este caso la estrategia sera una clase Abstracta y las estrategias concretas Heredadas.

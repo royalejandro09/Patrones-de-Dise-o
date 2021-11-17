@@ -1,0 +1,21 @@
+
+PROGRAMACION ORIENTADA A OBJETOS - JAVA
+
+SINGLETON
+
+Es un patron de diseño de creacion que garantiza que una clase tenga solo 
+una Instancia y define un punto de acceso para ella.
+
++ Evita que cualquier otra clase cree una instancia de ella.
++ Para crear una instancia debe pasar obligatoriamente por la clase, ninguna otra clase puede instanciarla.
++ Proporciona un punto de acceso global a su Instancia 
++ La clase siempre me ofrecera su propia Instancia y si aun no tiene una, la crea y me retorna la instancia recien creada.
+
+
+Crear una clase con el Patron Singleton 
+
++ Crear un atributo estatico del mismo tipo que la clase con el nombre de la "instance"
++ Todos los constructores de la clase debe usar el encapsulamiento "private"
++ Crear un metodo "getInstance()" estatico que me retorna el atributo instance
+
+ 
